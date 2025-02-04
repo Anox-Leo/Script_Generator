@@ -1,33 +1,16 @@
-# Batch Script Generator
+# Script Generator
 
-Welcome to the **Batch Script Generator** project!
+Script Generator is web application designed to generate structured scripts efficiently. Developed over a one-week project for a research professor.
 
-## Prerequisites
+## Preview
 
-Before using this application, ensure you have the following:
+### Homepage (Light theme)
 
-1. One or many JAR file of the application to test.
-2. A ZIP file containing 'population' files.
+![Homepage (Light theme)](https://github.com/Anox-Leo/Script_Generator/blob/main/images/light_theme.png)
 
-## Installation
+### Homepage (Dark theme)
 
-1. **Clone the Repositories:**
-
-   ```sh
-   git clone https://github.com/Script-Generator/FILA1_Script_Generator_back.git
-   git clone https://github.com/Script-Generator/FILA1_Script_Generator.git
-   ```
-
-## Configuration
-
-Create a `.env` file inside `FILA1_Script_Generator_back` with the following format:
-
-```sh
-SSH_HOST=
-SSH_PORT=
-SSH_USER=
-SSH_PASS=
-```
+![Homepage (Dark theme)](https://github.com/Anox-Leo/Script_Generator/blob/main/images/dark_theme.png)
 
 ## Usage
 
@@ -41,17 +24,6 @@ SSH_PASS=
 2. Fill out the form.
 3. Make necessary changes in the code editor space.
 4. Verify and export the script (you can download locally or export to the server you have configured).
-
-The folder structure should look like this on the server:
-
-```sh
-.
-├── LOGS
-├── INSTANCES
-├──  JAR
-├── commandLines.txt
-└── script.sh
-```
 
 ## Contributors
 
